@@ -1,0 +1,18 @@
+#profile-img {
+    width: 100%;
+    
+    
+}
+#topnav {
+    background-color: #FDBCFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: left; 
+    height: 40px;
+    margin: auto;
+    width:  100%;
+
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
