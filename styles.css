@@ -1,6 +1,6 @@
 
-
-.profiletara{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@500&family=Raleway:ital,wght@0,400;0,600;1,200&display=swap');
+.profile-img{
     height: auto;
     width: 200px;
     
@@ -55,18 +55,18 @@ body{
 }   
 
 h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     font-size: 70px;
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
 /* social media footer */ 
 
-social_media {
+social-media {
     text-align: right;
 }
 
-.social_list {
+.social-media {
     list-style-type: none;
     text-align: right;
    }
