@@ -92,7 +92,7 @@ a:hover {
 }
 
 /* selected link */
-a: active {
+a:active {
     color: black;
 }
  
