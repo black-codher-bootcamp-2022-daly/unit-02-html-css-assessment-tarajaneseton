@@ -1,21 +1,21 @@
 
 
-#profile-img {
-    width: 100%;
+.profiletara{
+    height: auto;
+    width: 200px;
     
     
 }
+
+
 /* topnav */
 #topnav {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
     color: black;
-    text-align: left; 
+    text-align: center; 
     height: 60px;
-    width:  100%;
-    margin: 10px;
-    text-align: right;
-    padding-right: 20px;
+    
     font-size: 125%;
 
 }
@@ -34,21 +34,46 @@
         }
 
 .item-2 {
+    width: 200px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    
+
 }
 
 /* body */
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 250px;
+    margin-right: 250px;
     
-    
+   
+
+}   
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
+/* social media footer */ 
+
+social_media {
+    text-align: right;
+}
+
+.social_list {
+    list-style-type: none;
+    text-align: right;
+   }
+
+
+
+
 /* unvisited link */
 a:link {
     color: black;
@@ -70,24 +95,7 @@ a:hover {
 a: active {
     color: black;
 }
+ 
 
-/* whole page */
-html {
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-}
 
-@media (max-width: 480px) {
-    body {
-        font-size: 16px;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        font-size: 18px;
-    }
-    topnav {
-        font-size: 6px;
-    }
-    profile-img {
-        width: 50%;
-    }
         
