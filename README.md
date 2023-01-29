@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2d018e58-11de-41ba-b1f2-552182939267/deploy-status)](https://app.netlify.com/sites/effulgent-beijinho-a75ed5/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2d018e58-11de-41ba-b1f2-552182939267/deploy-status)](https://app.netlify.com/sites/tarajaneseton/deploys)
 
 # HTML and CSS Assessment
 
