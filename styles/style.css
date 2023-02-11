@@ -1,27 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,400;0,600;1,200&family=Yeseva+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@500&family=Raleway:ital,wght@0,400;0,600;1,200&display=swap');
-/* .profile-img{
-    height: auto;
-    width: 200px; 
-} */
+@media only screen and (max-width: 600px) {
+    /* .navbar a:not(:first-child) {display: none;}
+    .topnav a.icon { */
+      float: right;
+      display: block;
+    }
+
+
+  /* } */
+
+
+  .navbar > .container {
+    color: black; 
+    font-size: 14px;
+    display: inline
+  }
 
 /* hero background image */
 .bgimage {
-    height:100vh;
-    background: url('/assets/heroImage.jpg');
+    height:150vh;
+    background: url('/assets/heroImageBlue.jpg');
     background-size:cover;
     position:relative;
 }
 .hero_title {
-    font-family: Safira March Personal Use;
-    font-size: 75%;
-}
-/* text css ontop of hero image*/
-.hero_title {
+    font-family: Yeseva One;
     font-size: 4.5rem;
 }
+/* text css ontop of hero image*/
+
 .hero_desc {
     font-size: 2rem;
+    font-family: Raleway;
+    font-weight: 400px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 .hero-text {
     text-align: center;
@@ -40,6 +54,10 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
+}
+
+.container {
+
 }
 
 /* social media icons styling */
